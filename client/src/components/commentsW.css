@@ -1,0 +1,169 @@
+body,
+html {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(134, 226, 122, 0.664);
+    /*MOVING GRADIENT
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  
+   */
+}
+/* PART 2 MOVING GRADEINT
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+      }
+    50% {
+      background-position: 100% 50%;
+      }
+    100% {
+      background-position: 0% 50%;
+      }
+} END HERE*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add styles to the form container */
+.container {
+    background-color: rgba(
+        77,
+        185,
+        235,
+        0.664
+    ); /*TO MAKE TRNSPARENT MAKE 0 LAST ONE*/
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73ad21;
+
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 35px 35px 35px 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Full-width input fields */
+input[type="name"],
+input[type="number"],
+input[type="text"] {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-radius: 10px 10px 10px 10px;
+    background: #f1f1f1;
+}
+
+input[type="name"]:focus,
+input[type="number"]:focus,
+input[type="text"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: rgba(
+        77,
+        185,
+        235,
+        0.664
+    ); /*TO MAKE TRNSPARENT MAKE 0 LAST ONE*/
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+div.a {
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    height: 100px;
+    /*background-color: powderblue;*/
+
+    position: static;
+    /* border: 3px solid #73AD21;*/
+}
+div.b {
+    text-align: center;
+
+    position: static;
+    /* border: 1px solid #73AD21;*/
+}
+div.c {
+    text-align: center;
+
+    position: static;
+    min-height: 250px;
+    height: fit-content;
+    /* border: 1px solid #73AD21;*/
+}
+#myUL {
+    text-align: justify;
+}
+li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    border: 4px #04aa6f;
+    background-color: rgba(
+        134,
+        226,
+        122,
+        0
+    ); /*TO MAKE TRNSPARENT MAKE 0 LAST ONE*/
+
+    font-size: 18px;
+    transition: 0.2s;
+    margin: 0;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.container {
+    position: relative;
+}
+
+.result-container {
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 160px;
+    width: 95%;
+    height: fit-content;
+    z-index: 1000;
+}
+
+.result-container .result-inner-container {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+}
+
+.result-container .result-inner-container:hover {
+    background-color: #555;
+}

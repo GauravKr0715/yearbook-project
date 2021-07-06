@@ -1,0 +1,116 @@
+.bag{
+  position: absolute;
+    background: linear-gradient(60deg, #997f0b, #035d43, #d7ce1c, #0cc0bd, #b12076) ;
+    background-size: 1000% 1000% ;
+
+    -webkit-animation: AnimationName 11s ease infinite ;
+    -moz-animation: AnimationName 11s ease infinite ;
+    animation: AnimationName 11s ease infinite  ;
+    top: 0;
+    height: 800px;
+   width:100%;
+   
+   
+       
+   }
+
+   #entry-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: aliceblue;
+    width: 80vh;
+    height: 63vh;
+    text-align: center;
+    -webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,1);
+-moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,1);
+box-shadow: 11px 10px 5px 0px rgba(0,0,0,1);
+
+    background-color: rgba(146, 143, 143, 0.336);
+    color: white;
+    margin-left: 26em;
+    margin-top: 10rem;
+    border-radius: 10px 10px 10px 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  
+  }
+
+  h1{
+    
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 2rem;
+    
+  }
+  
+  label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+  }
+
+  
+  ul{
+    list-style-type: none;
+  }
+
+  button{
+      margin-top: 1.4rem;
+      padding: 0.6rem 1rem;
+      background-color: #520131;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgb(43, 42, 42) !important;
+      border-radius: 8px 8px 8px 8px !important;
+  }
+
+  button:hover{
+      cursor: pointer;
+      background-color: #914a74;
+      color: white;
+      box-shadow: 0 4px 6px rgb(43, 42, 42);
+      border-radius: 30%
+
+  }
+  
+input{
+    width:50%;
+    border-radius: 6px 0 6px 0;
+    outline: none;
+    border-bottom:3px solid  #520131;
+    padding-bottom: 0.7rem;
+    box-shadow: 0 5px 6px black;
+    
+
+}
+
+input:hover{
+  box-shadow: 0 5px 6px black;
+    width:60%;
+    border-radius: 0 6px 0 6px ;
+    border-top:3px solid  #520131;
+    border-bottom: 1px solid black;
+
+
+}
+
+   @-webkit-keyframes AnimationName {
+    0%{background-position:0% 15% }
+    50%{background-position:100% 86% }
+    100%{background-position:0% 15% }
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 15% }
+    50%{background-position:100% 86% }
+    100%{background-position:0% 15% }
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 15% }
+    50%{background-position:100% 86% }
+    100%{background-position:0% 15% }
+  }
